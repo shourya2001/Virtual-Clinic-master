@@ -28,6 +28,7 @@ const doctorSchema = new mongoose.Schema({
         ref :"appointment"
     }],
     image: String,
+    certificate: String,
     fee:String
 })
  

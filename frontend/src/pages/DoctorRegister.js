@@ -116,6 +116,7 @@ export default function SignUp(props) {
     specialisation:'',
     image: '',
     fee: '',
+    certificate:'',
   });
 
   const handleChange = (e)=>{
@@ -305,6 +306,16 @@ export default function SignUp(props) {
                 onSuccess={({ filesUploaded }) => setDoctor({...doctor, image: filesUploaded[0].url })}
                 onError={(e) => console.log(e)}
                 buttonText={'Upload Profile Picture'}
+                buttonClass={classes.buttonUpload}
+              />
+            </Grid>
+            <Grid item xs ={12}>
+              <ReactFilestack 
+                apikey="As9Na4GuRDGAeFOcRfEgqz"
+                mode={'pick'}
+                onSuccess={({ filesUploaded }) => setDoctor({...doctor, certificate: filesUploaded[0].url })}
+                onError={(e) => console.log(e)}
+                buttonText={'Upload Certificate'}
                 buttonClass={classes.buttonUpload}
               />
             </Grid>
