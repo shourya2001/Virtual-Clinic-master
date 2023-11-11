@@ -17,6 +17,12 @@ Patient Home Page
 Scheduler for the Doctor
 ![doc dashboard](https://github.com/shourya2001/Virtual-Clinic-master/assets/61306664/6b473f84-cfff-44b0-973d-30c3f7550d11)
 
+Booking an appointment
+![book appointment](https://github.com/shourya2001/Virtual-Clinic-master/assets/61306664/9df4999a-04b6-41ac-be74-e7d6546d0a05)
+
+Making a payment
+![payment](https://github.com/shourya2001/Virtual-Clinic-master/assets/61306664/77e39723-62e0-4e65-97b4-8e6c07adc31b)
+
 Meeting Page
 ![vc meeting](https://github.com/shourya2001/Virtual-Clinic-master/assets/61306664/d238d55a-7de9-4be3-a562-384e6a28d778)
 
