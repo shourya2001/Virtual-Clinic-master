@@ -18,14 +18,14 @@
     "@testing-library/user-event": "^12.8.3",
     "accepts": "^1.3.7",
     "antd": "^4.16.0",
-    "axios": "^0.21.1",
+    "axios": "^1.20.0",
     "bootstrap": "^4.6.0",
     "dotenv": "^8.2.0",
     "filestack-react": "^4.0.0",
     "formik": "^2.2.8",
     "lodash": "^4.17.21",
     "mdbreact": "^5.0.2",
-    "moment": "^2.29.1",
+    "moment": "^2.30.1",
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.0",
     "react-datepicker": "^3.8.0",
@@ -37,13 +37,13 @@
     "react-responsive-animate-navbar": "^1.1.8",
     "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "4.0.3",
+    "react-scripts": "5.0.1",
     "react-search-autocomplete": "^5.2.2",
     "recharts": "^2.0.9",
     "simple-peer": "^9.11.0",
-    "socket.io-client": "^4.1.2",
+    "socket.io-client": "^4.8.1",
     "universal-react-logger": "^1.0.6",
-    "validator": "^13.6.0",
+    "validator": "^13.15.35",
     "web-vitals": "^1.1.2"
   },
   "scripts": {
@@ -69,5 +69,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "overrides": {
+    "@babel/runtime-corejs3": "^7.26.10",
+    "ansi-regex": "^5.0.1",
+    "chart.js": "^2.9.4",
+    "decode-uri-component": "^0.2.1",
+    "luxon": "^1.28.1",
+    "moment": "^2.30.1",
+    "node-fetch": "^2.6.7",
+    "nth-check": "^2.1.1",
+    "serialize-javascript": "^7.0.5",
+    "yaml": "^2.8.3"
   }
 }
